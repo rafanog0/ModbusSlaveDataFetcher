@@ -30,8 +30,8 @@ O código trabalha da seguinte forma para coletar os dados:
 - Recebe o payload em RTU
 - Decodifica para dados legíveis
 - São escolhidos os dados relevantes ao escopo do projeto
-- Imprime iteradamente a cada 1s em um json as informações de: voltagem, amperagem e kWh e salva com o timestamp da coleta
-- Cria um novo arquivo json a cada hora
+- Coleta e imprime iteradamente a cada 1s em um .json as informações de: voltagem, amperagem e kWh e salva com o timestamp da coleta
+- Cria um novo arquivo .json a cada hora com o timestamp da hora criada no formato: HHh-MMm.json
 - Envia a cada hora o json para o Azure
 
 ## Visão computacional:
