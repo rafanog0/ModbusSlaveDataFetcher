@@ -23,7 +23,7 @@ Para formalização de uso, é necessário que o IP e a porta do Gavazzi sejam b
 
 ## Código para leitura e recebimento de dados do slave:
 
-Neste repositório, o arquivo ```modbus_to_azure.py``` enviará os dados não tratados para o Azure, e dependerá do Azure para responder quando houver.
+Neste repositório, o arquivo ```modbus_to_azure.py``` enviará os dados não tratados para o Azure, e dependerá do Azure para responder quando houver requisição
 
 ## Visão computacional:
 Usando a câmera, o software fará a comparação de gasto energético desde a última vez que houveram mudanças na quantidade de pessoas.
