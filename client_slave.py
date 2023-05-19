@@ -17,9 +17,11 @@ client.connect()
 
 
 while True:
-    result = client.read_holding_registers(address = 0, count = 5, slave = SLAVE_ADDRESS) # Ler um registro do dispositivo "slave"
+    result = client.read_holding_registers(address = 0, count = 10, slave = SLAVE_ADDRESS) # Ler um registro do dispositivo "slave"
     decoder = BinaryPayloadDecoder.fromRegisters(result.registers, byteorder=Endian.Big)
-    
+    kWh = decoder._payload[6:8]
+    print(list(decoder._payload))
+    print(decoder._payload)
     sleep(1)
 
     if result.isError(): #Verifica se houve erro na leitura
@@ -28,8 +30,11 @@ while True:
     else:
         os.system("cls")
         print("<---------- SLAVE 1 ---------->")
-        print("Info1: ", decoder.decode_16bit_int())
-
+        print("Info1: ", decoder._payload[7:9])
+        print("Teste: " , kWh)
+        print("Info1: ", int.from_bytes(kWh, byteorder = 'big'))
+    
+# .decode_16bit_int()
 # Encerrar a conexão com o servidor Modbus
 
 client.close()
