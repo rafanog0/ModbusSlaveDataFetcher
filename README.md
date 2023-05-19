@@ -21,10 +21,10 @@ O grupo utilizou da ferramenta "Radzio! Modbus Master Simulator" para testar e r
 
 Para formalização de uso, é necessário que o IP e a porta do Gavazzi sejam buscados pelo código que interpretará os dados, então foi utilizado o padrão do conversor, que é a porta ```8234```
 
-É necessário estabeler a forma mais econômica possível para leitura e interpretação de dados, já que a Azure cobra por requisição e por quantidade de dados enviados. Para isso, o grupo estudou se é possivel fazer uma requisição por meio da câmera: cada vez que a quantidade de pessoas na sala mudar, é feita uma requisição de leitura de gasto energético. Com esses dados, fica possível fazer uma diferença da forma ```Δe * Δt / nPessoas``` onde: 
-  Δe = variação do gasto energético em kW;
-  Δt = variação do tempo t2 - t1
-  nPessoas = quantidade de pessoas na sala
+É necessário estabeler a forma mais econômica possível para leitura e interpretação de dados, já que a Azure cobra por requisição e por quantidade de dados enviados. Para isso, o grupo estudou se é possivel fazer uma requisição por meio da câmera: cada vez que a quantidade de pessoas na sala mudar, é feita uma requisição de leitura de gasto energético. Com esses dados, fica possível fazer uma diferença da forma ```Δe * Δt / nPessoas``` onde:\n
+  \nΔe = variação do gasto energético em kW;
+  \nΔt = variação do tempo t2 - t1
+  \nnPessoas = quantidade de pessoas na sala
   
 
 
