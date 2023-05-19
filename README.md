@@ -25,13 +25,14 @@ Para formalização de uso, é necessário que o IP e a porta do Gavazzi sejam b
 
 Neste repositório, o arquivo ```modbus_to_azure.py``` enviará os dados não tratados para o Azure, e dependerá do Azure para responder quando houver requisição.
 
-O código trabalha da seguinte forma:
+O código trabalha da seguinte forma para coletar os dados:
 
-- Recebe o dado em RTU
+- Recebe o payload em RTU
 - Decodifica para dados legíveis
-- Imprime iteradamente a cada 1s em um json as informações de: voltagem, amperagem e kWh
+- São escolhidos os dados relevantes ao escopo do projeto
+- Imprime iteradamente a cada 1s em um json as informações de: voltagem, amperagem e kWh e salva com o timestamp da coleta
 - Cria um novo arquivo json a cada hora
-- Organiza e envia para o IoT Hub
+- Envia a cada hora o json para o Azure
 
 ## Visão computacional:
 Usando a câmera, o software fará a comparação de gasto energético desde a última vez que houveram mudanças na quantidade de pessoas.
