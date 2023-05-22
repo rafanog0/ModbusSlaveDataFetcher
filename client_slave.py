@@ -24,7 +24,7 @@ while True:
     print(decoder._payload)
     sleep(1)
 
-    if result.isError(): #Verifica se houve erro na leitura
+    if result.isError(): #Verifica se houve erro
         print(result)
         print("Erro ao ler registro do dispositivo")
     else:
