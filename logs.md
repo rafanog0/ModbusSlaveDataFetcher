@@ -1,6 +1,6 @@
 # Logs e workflow 
 Esse arquivo servirá para registrar o que foi feito em cada dia do trabalho e quais escolhas foram tomadas ao longo do processo.
-### 01-05 à 15- 05
+### 03-04 à 15-05
 Foram realizados estudos extensos do protocolo Modbus, do Manual de comunicação e instalação do Gavazzi EM-210, do conector RTU to TCP USR-TCP232-304 da PUSR e das bibliotecas modbus-server e PyModBus para auxílio nas medições realizadas no projeto.
 ### 17-05-2023
 Escolhida biblioteca PyModBus (python) ao invés da modbus-server(NPM e Node.Js) devido à facilidade do grupo com a linguagem e utilização ser mais rápida.
