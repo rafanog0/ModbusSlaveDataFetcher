@@ -17,7 +17,7 @@ client.connect()
 
 
 while True:
-    result = client.read_holding_registers(address = 0, count = 10, slave = SLAVE_ADDRESS) # Ler um registro do dispositivo "slave"
+    result = client.read_holding_registers(address = 0, count = 10, slave = SLAVE_ADDRESS) 
     decoder = BinaryPayloadDecoder.fromRegisters(result.registers, byteorder=Endian.Big)
     kWh = decoder._payload[6:8]
     print(list(decoder._payload))
