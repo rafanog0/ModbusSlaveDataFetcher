@@ -6,6 +6,7 @@ O objetivo do projeto é obter leituras de um dispositivo Gavazzi EM-210 por mei
 
 Além disso, o projeto inicial envolve uso de inteligência artificial para monitoramento de quantidade de pessoas na sala por meio das plataformas do Azure Vision Studio e Câmera IP Hikivision Modelo DS-2CE57D3T para assim realizar leituras de número de pessoas no ambiente, e, desse modo, tomar decisões para controle de gastos energéticos.
 
+Como questão de segurança, os códigos aqui apresentados não incluem as chaves para conexão com a Azure. Esse código é replicável e pode ser utilizado para qualquer implantação com a adaptação correta do código.
 
 
 
