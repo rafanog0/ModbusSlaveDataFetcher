@@ -33,3 +33,6 @@ O código trabalha da seguinte forma para coletar os dados:
 - Coleta e imprime iteradamente a cada 1s em um .json as informações de: voltagem, amperagem e kWh e salva com o timestamp da coleta
 - Cria um novo arquivo .json a cada hora com o timestamp da hora criada no formato: HHh-MMm.json
 - Envia a cada hora o json para o Azure
+
+## Entrega final
+Para o cliente, entregamos a solução do código e esta documentação. Temos certeza da que a solução poderá ser replicada e ajudará a padronização da implantação de leitores de energia via RTU over TCP.
