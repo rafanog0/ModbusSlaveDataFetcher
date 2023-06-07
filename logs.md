@@ -14,4 +14,13 @@ Refinamento do código e feitas escolhas de projeto. Foram definidas:
 ### 22-05-2023
 Estudo e tentativa de implementação da solução de IoT da Azure com simulador de cliente e uso do código de servidor desenvolvido pelo grupo.
 
+### 29-05-2023
+Finalizada implantação com o cliente. Dados sendo enviados à Azure para processamento e tratamento de dados.
+
+### 07-06-2023
+Apresentação à Crazy Tech Labs
+
+### 07-06-2023
+Apresentação aos colegas da faculdade no encerramento do IDP Sprint
+
 
