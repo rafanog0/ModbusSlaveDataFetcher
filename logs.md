@@ -17,10 +17,10 @@ Estudo e tentativa de implementação da solução de IoT da Azure com simulador
 ### 29-05-2023
 Finalizada implantação com o cliente. Dados sendo enviados à Azure para processamento e tratamento de dados.
 
-### 07-06-2023
-Apresentação à Crazy Tech Labs
+### 05-06-2023
+Apresentação à Crazy Tech Labs.
 
 ### 07-06-2023
-Apresentação aos colegas da faculdade no encerramento do IDP Sprint
+Apresentação aos colegas da faculdade no encerramento do IDP Sprint.
 
 
